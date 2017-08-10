@@ -3,7 +3,7 @@ import App from './App.vue'
 import VueRouter from 'vue-router'
 import ElementUI from 'element-ui'
 import routes from './router/router.js'
-import vueStore from './vueStore/index.js'
+import store from './vueStore/index.js'
 import 'element-ui/lib/theme-default/index.css'
 
 import axios from 'axios'
@@ -30,7 +30,7 @@ const router = new VueRouter({
 new Vue({
     el: '#app',
     router,
-    vueStore,
+    store,
     render: h => h(App)
 })
 

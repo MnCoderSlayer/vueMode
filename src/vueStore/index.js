@@ -6,7 +6,8 @@ import actions from './action'
 
 Vue.use(Vuex)
 const state = {
-
+    contentCon:'',
+    con1:[{}]
 }
 
 export default new Vuex.Store({
